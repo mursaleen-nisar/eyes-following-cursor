@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eyes following cursor</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen w-screen bg-zinc-900">
+  <div class="flex items-center justify-center h-full">
+    <div class="relative">
+      <div class="outer-eye w-32 h-32 bg-white rounded-full flex items-center justify-center relative">
+        <div class="eye w-16 h-16 left-[65px] bg-black rounded-full absolute">
+          <div class="pupil w-4 h-4 bg-white rounded-full absolute top-[48%] right-[10%]"></div>
+        </div>
+      </div>
+    </div>
+    <div class="relative ml-10">
+      <div class="outer-eye w-32 h-32 bg-white rounded-full flex items-center justify-center relative">
+        <div class="eye w-16 h-16 left-[65px] bg-black rounded-full absolute">
+          <div class="pupil w-4 h-4 bg-white rounded-full absolute top-[48%] right-[10%]"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
